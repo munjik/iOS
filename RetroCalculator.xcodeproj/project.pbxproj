@@ -14,6 +14,7 @@
 		BE067A0920A93965007A9847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE067A0720A93965007A9847 /* LaunchScreen.storyboard */; };
 		BE067A1420A93965007A9847 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE067A1320A93965007A9847 /* RetroCalculatorTests.swift */; };
 		BE067A1F20A93965007A9847 /* RetroCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE067A1E20A93965007A9847 /* RetroCalculatorUITests.swift */; };
+		BE0DE30820AC0CDF00F1EFAD /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE0DE30720AC0CDF00F1EFAD /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE067A1A20A93965007A9847 /* RetroCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE067A1E20A93965007A9847 /* RetroCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorUITests.swift; sourceTree = "<group>"; };
 		BE067A2020A93965007A9847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0DE30720AC0CDF00F1EFAD /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BE0679FD20A93965007A9847 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BE0DE30720AC0CDF00F1EFAD /* btn.wav */,
 				BE0679FE20A93965007A9847 /* AppDelegate.swift */,
 				BE067A0020A93965007A9847 /* ViewController.swift */,
 				BE067A0220A93965007A9847 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				BE067A0920A93965007A9847 /* LaunchScreen.storyboard in Resources */,
 				BE067A0620A93965007A9847 /* Assets.xcassets in Resources */,
 				BE067A0420A93965007A9847 /* Main.storyboard in Resources */,
+				BE0DE30820AC0CDF00F1EFAD /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
